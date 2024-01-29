@@ -32,7 +32,7 @@ const CardModule: React.FC<ICardModule> = ({ title, name, completed }) => {
           )}
         </div>
         <CardContent className="h-44">
-          <h2 className="mb-1 text-sm lg:text-base leading-tight text-neutral-800 dark:text-neutral-50 font-bold">
+          <h2 className="mb-1 text-sm lg:text-base  leading-tight text-neutral-800 dark:text-neutral-800 font-bold">
             {title}
           </h2>
         </CardContent>
